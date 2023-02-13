@@ -1,0 +1,67 @@
+/*
+Source:
+https://zenn.dev/be_the_light/articles/d4d5c34bc7db80
+*/
+
+/* 文字色の装飾 */
+.deco-\# {
+    color: #3cbbfd; /* 青文字 */
+}
+
+.deco-\" {
+     color: #e0f33f; /* 黄色文字 */
+}
+
+.deco-\! {
+      color: #fb50b7; /* 赤文字 */
+}
+
+.deco-\% {
+       background: -webkit-linear-gradient(0deg, #ACB6E5, #c67cff); /* 背景色にグラデーションを指定 */
+    -webkit-background-clip: text; /* テキストでくり抜く */
+    -webkit-text-fill-color: transparent; /* くり抜いた部分は背景を表示 */
+ }
+
+span.deco-- {
+    color: #ACB6E5; /* 非対応のブラウザでの文字色を設定 */
+    background: -webkit-linear-gradient(0deg, #ACB6E5, #86FDE8); /* 背景色にグラデーションを指定 */
+    -webkit-background-clip: text; /* テキストでくり抜く */
+    -webkit-text-fill-color: transparent; /* くり抜いた部分は背景を表示 */
+}
+
+
+
+/* インデントの装飾 */
+.line .indent-mark .dot {
+        width: 10px;
+     height: 4px;
+     border-radius: 5px;
+ }
+.line .indent-mark .c-1 + .dot {
+         background-color: #fc034a;
+ }
+ .line .indent-mark .c-2 + .dot {
+      background-color: #00c96f;
+ }
+ .line .indent-mark .c-3 + .dot {
+      background-color: #fcc603;
+ }
+ 
+ 
+ /* 見出し4のスタイル */
+ strong.level.level-4 {
+     padding: 1rem 2rem;
+     border-left: 6px double #fff;
+     margin-bottom: 16px;
+     display: block;
+ }
+ 
+ /* 見出し3のスタイルt */
+ strong.level.level-3::after {
+     content: "";
+     display: block;
+     height: 2px;
+     width: 100%;
+     background-color: #fff;
+     border-radius: 5px;
+ }
