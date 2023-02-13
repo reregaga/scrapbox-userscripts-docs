@@ -1,0 +1,8 @@
+nav:
+    - Home: index.md
+    - API Endpoints: api-website.md
+    - API in-Browser: api-webbrowser.md
+    - CSS: style.md
+    - Examples: examples.md
+    - Tags: tags.md
+collapse: true

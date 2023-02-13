@@ -1,0 +1,18 @@
+/* Redefine original styles */
+:root {
+    /*--md-primary-fg-color: #4051b5;*/
+    --md-primary-fg-color: #39AC86 !important;
+    /*--md-primary-fg-color--light: #5d6cc0;*/
+    --md-primary-fg-color--light: #5CD8A4 !important;
+    /*--md-primary-fg-color--dark: #303fa1;*/
+    --md-primary-fg-color--dark: #14605F !important;
+    /*--md-accent-fg-color: #526cfe;*/
+    --md-accent-fg-color: #BEDD24 !important;
+    /*--md-accent-fg-color--transparent: #6ffe521a;*/
+    --md-accent-fg-color--transparent: #6ffe521a !important;
+}
+
+/* Hide unuseful footer */
+body > div.md-container > footer > div.md-footer-meta.md-typeset {
+    display: none;
+}
